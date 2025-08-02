@@ -19,6 +19,7 @@ To install `peek` globally on your system:
 ```bash
 git clone https://github.com/SaadWasim175/peek.git
 cd peek
+chmod +x install.sh
 ./install.sh
 ```
 This will compile the peek binary and place it in your system's executable path (e.g., /usr/local/bin), allowing you to run peek from anywhere in the terminal.
