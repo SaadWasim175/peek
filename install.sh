@@ -59,4 +59,4 @@ sudo chmod +x "$DEST"
 
 # === Step 6: Done ===
 success "'$TARGET_NAME' installed successfully at $DEST!"
-echo "Run '$TARGET_NAME --help' to get started 🚀"
+echo "Run '$TARGET_NAME -h' to get started 🚀"
