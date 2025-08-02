@@ -17,7 +17,7 @@ To install `peek` globally on your system:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/peek.git
+git clone https://github.com/SaadWasim175/peek.git
 cd peek
 ./install.sh
 ```
