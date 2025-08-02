@@ -229,15 +229,15 @@ int main(int argc, char *argv[]) {
             return 0;
         } else if (strcmp(argv[i], "-h") == 0) {
             printf(BOLD "Usage:\n" RESET);
-            printf("  ./index             Show files & folders\n");
-            printf("  ./index -a          Include hidden files\n");
-            printf("  ./index -f          Show only files\n");
-            printf("  ./index -d          Show only directories\n");
-            printf("  ./index -tr         Show directory tree\n");
-            printf("  ./index -t          List files with timestamps\n");
-            printf("  ./index -g          Group files by type\n");
-            printf("  ./index -r <file>   Read file contents\n");
-            printf("  ./index --ext <ext> Filter by extension\n");
+            printf("  peek             Show files & folders\n");
+            printf("  peek -a          Include hidden files\n");
+            printf("  peek -f          Show only files\n");
+            printf("  peek -d          Show only directories\n");
+            printf("  peek -tr         Show directory tree\n");
+            printf("  peek -t          List files with timestamps\n");
+            printf("  peek -g          Group files by type\n");
+            printf("  peek -r <file>   Read file contents\n");
+            printf("  peek --ext <ext> Filter by extension\n");
             return 0;
         } else {
             printf(FG_RED "Unknown flag: %s\n" RESET, argv[i]);
